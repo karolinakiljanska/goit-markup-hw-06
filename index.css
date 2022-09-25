@@ -84,19 +84,37 @@ img {
   font-style: normal;
   line-height: 1.142;
 }
-.is-active {
-  position: relative;
+.mav-link-black:visited {
+  color: var(--black-soft);
+}
+.nav-link-black {
+  color: var(--black-soft);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link-blue {
   color: var(--blue);
+  position: relative;
+  height: 100%;
+  padding-bottom: 60%;
 }
-.is-active::after {
+.nav-link-blue:after {
   display: block;
+  border-bottom: 4px solid var(--blue);
+  border-radius: 4px;
   position: absolute;
-  border-radius: 2px;
+  content: "";
   width: 100%;
-  height: 4px;
-  top: 45px;
-  background-color: var(--blue);
+  bottom: 0px;
+  left: 0px;
 }
+.nav-link-black:hover,
+.nav-link-black:focus-within {
+  border-bottom: 4px solid var(--blue);
+  padding-bottom: 50%;
+}
+
 .contact-list {
   list-style: none;
   display: flex;
