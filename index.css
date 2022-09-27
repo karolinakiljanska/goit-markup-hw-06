@@ -42,7 +42,7 @@ img {
   line-height: 1.193;
   color: var(--black);
   letter-spacing: 0.03em;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 .footer-logo {
   color: var(--white);
@@ -51,7 +51,7 @@ img {
   font-size: 26px;
   line-height: 1.193;
   letter-spacing: 0.03em;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 .blue-web {
   color: var(--blue);
