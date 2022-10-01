@@ -174,11 +174,8 @@ img {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/tlo.jpg);
+  background-image: url(../images/tlo.jpg),
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-size: cover;
   margin: auto;
 }
