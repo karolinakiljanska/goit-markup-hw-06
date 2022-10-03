@@ -787,7 +787,7 @@ textarea {
 .checkbox:checked + .form-text-down::before {
   border: none;
   background-color: var(--blue);
-  background-image: url("checkbox");
+  background-image: url(../images/icon-check-1.svg);
   fill: var(--white);
   background-repeat: no-repeat;
   background-position: center;
