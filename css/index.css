@@ -659,7 +659,7 @@ figure {
 .label {
   display: flex;
   flex-direction: column;
-  column-gap: 28px;
+
   margin-left: 40px;
 }
 .form-text-head {
@@ -715,26 +715,29 @@ textarea {
   padding: 12px 16px;
 }
 .icon-person {
-  top: 107px;
+  top: 118px;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   fill: var(--black);
   left: 54px;
 }
 .icon-form-phone {
-  top: 174.26px;
+  top: 182px;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 13px;
+  height: 13px;
   fill: var(--black);
   left: 54px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 .icon-form-mail {
-  top: 243px;
+  top: 246px;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 12px;
   fill: var(--black);
   left: 54px;
 }
@@ -794,6 +797,18 @@ textarea {
   position: absolute;
   left: 57px;
   bottom: 127px;
+}
+label:focus-within > svg {
+  fill: var(--blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.frame:focus-within {
+  border: 1px solid var(--blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.field-text:focus-within {
+  border: 1px solid var(--blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-btn {
   width: 200px;
