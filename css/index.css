@@ -681,6 +681,7 @@ figure {
   letter-spacing: 0.01em;
   font-style: normal;
   margin-top: 10px;
+  position: relative;
 }
 .frame {
   width: 448px;
@@ -715,31 +716,31 @@ textarea {
   padding: 12px 16px;
 }
 .icon-person {
-  top: 118px;
   position: absolute;
   width: 12px;
   height: 12px;
   fill: var(--black);
-  left: 54px;
+  left: 15px;
+  margin-top: 28px;
 }
 .icon-form-phone {
-  top: 182px;
+  margin-top: 28px;
   position: absolute;
   width: 13px;
   height: 13px;
   fill: var(--black);
-  left: 54px;
+  left: 15px;
   text-align: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 .icon-form-mail {
-  top: 246px;
   position: absolute;
   width: 15px;
   height: 12px;
   fill: var(--black);
-  left: 54px;
+  left: 15px;
+  margin-top: 28px;
 }
 .form-checkbox {
   display: flex;
