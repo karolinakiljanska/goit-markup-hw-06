@@ -598,17 +598,15 @@
           name="komentarz"
             placeholder="Wprowadź tekst"
           ></textarea>
-        <div class="form-checkbox">
-          <input
-          class="checkbox"
-          id="agreement"
-          type="checkbox"
-          name="policy"
-          />
-          <label class="form-text-down" for="agreement">
-            Oświadczam iż akceptuję
-            <a class="blue-txt" href="#"> Regulamin</a> i
-            <a class="blue-txt" href="#"> Politykę Prywatności.</a>
+        <div class="agreement">
+          <label class="label-agreement">
+            <input class="input-agreemnt" type="checkbox" />
+            <span class="checbox-icon">
+              <svg width="11" height="8">
+                <use href="../images/icons.svg#check-2"></use>
+              </svg>
+            </span>
+            <span class="agreement-text">Oświadczam, iż akceptuję <a class="blue-text" href="#"> Regulamin </a> i <a class="blue-text" href="#"> Politykę Prywatności </a></span>
           </label>
         </div>
         <button class="form-btn" type="submit">Wyślij</button>
