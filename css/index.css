@@ -811,7 +811,7 @@ label:focus-within > svg {
 }
 .checkbox-icon svg {
   margin-bottom: 3px;
-  margin-left: 3px;
+  margin-left: 2px;
   color: var(--white);
 }
 .input-agreemnt:checked + .checkbox-icon svg {
