@@ -109,7 +109,7 @@ img {
 .nav-link-black:focus-within {
   border-bottom: 4px solid var(--blue);
   padding-bottom: 50%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list {
@@ -134,7 +134,7 @@ img {
 .icon-phone:hover,
 .icon-phone:hover {
   fill: var(--blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link {
   text-decoration: none;
@@ -150,6 +150,7 @@ img {
 .mail-link:hover,
 .mail-link:focus {
   color: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-link {
@@ -166,7 +167,7 @@ img {
 .phone-link:hover,
 .phone-link:focus {
   color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-section {
   background-color: var(--darkgrey);
@@ -410,7 +411,7 @@ figure {
 .icon-media-box:focus {
   fill: #ffffff;
   background-color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-background {
@@ -449,7 +450,7 @@ figure {
 .icon-client:hover {
   fill: #2196f3;
   border-color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-client {
@@ -544,7 +545,7 @@ figure {
 .footer-social-icons:focus {
   background-color: var(--blue);
   fill: var(--white);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter-container {
   display: flex;
@@ -756,11 +757,11 @@ label:focus-within > svg {
 }
 .frame:focus-within {
   border: 1px solid var(--blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field-text:focus-within {
   border: 1px solid var(--blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-btn {
   width: 200px;
@@ -847,7 +848,7 @@ label:focus-within > svg {
 
 .form-btn:hover {
   opacity: 0.8;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 label:focus-within > svg {
   fill: var(--blue);
@@ -855,7 +856,7 @@ label:focus-within > svg {
 }
 .frame:focus-within {
   border: 1px solid var(--blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-nav-list {
@@ -878,10 +879,11 @@ label:focus-within > svg {
 
 .mail-link-portfolio:hover {
   color: var(--blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-portfolio:focus {
   color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-list {
@@ -911,7 +913,7 @@ label:focus-within > svg {
 .button-portfolio:hover {
   background-color: var(--blue);
   color: var(--white);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item {
   display: block;
@@ -958,7 +960,7 @@ label:focus-within > svg {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-label {
   position: relative;
