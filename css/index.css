@@ -688,6 +688,7 @@ figure {
   font-style: normal;
   margin-top: 10px;
   position: relative;
+  margin-bottom: 4px;
 }
 .frame {
   width: 448px;
@@ -801,22 +802,22 @@ label:focus-within > svg {
   height: 0;
   opacity: 0;
 }
-.checbox-icon {
+.checkbox-icon {
   position: absolute;
   width: 16px;
   height: 15px;
   border: 1px solid var(--grey);
   border-radius: 2px;
 }
-.checbox-icon svg {
+.checkbox-icon svg {
   margin-bottom: 5px;
   margin-left: 2px;
   color: var(--white);
 }
-.input-agreemnt:checked + .checbox-icon svg {
+.input-agreemnt:checked + .checkbox-icon svg {
   background-color: var(--blue);
 }
-.input-agreemnt:checked + .checbox-icon {
+.input-agreemnt:checked + .checkbox-icon {
   background-color: var(--blue);
   border-radius: 2px;
 }
@@ -836,6 +837,7 @@ label:focus-within > svg {
   text-decoration: underline;
   margin-left: 2px;
   margin-right: 2px;
+  letter-spacing: 0.03em;
 }
 
 .form-btn:hover {
