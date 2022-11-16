@@ -810,8 +810,8 @@ label:focus-within > svg {
   border-radius: 2px;
 }
 .checkbox-icon svg {
-  margin-bottom: 5px;
-  margin-left: 2px;
+  margin-bottom: 3px;
+  margin-left: 3px;
   color: var(--white);
 }
 .input-agreemnt:checked + .checkbox-icon svg {
