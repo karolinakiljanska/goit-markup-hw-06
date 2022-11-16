@@ -832,12 +832,17 @@ label:focus-within > svg {
   margin-top: -20px;
   margin-left: 22px;
 }
-.blue-txt {
+.blue-text {
   color: var(--blue);
   text-decoration: underline;
   margin-left: 2px;
   margin-right: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
+  display: flex;
 }
 
 .form-btn:hover {
