@@ -666,7 +666,7 @@ figure {
 .label {
   display: flex;
   flex-direction: column;
-
+  margin-bottom: 4px;
   margin-left: 40px;
 }
 .form-text-head {
@@ -678,7 +678,6 @@ figure {
   letter-spacing: 0.03em;
   color: var(--black);
   padding-top: 40px;
-  margin-bottom: 4px;
 }
 .form-text {
   font-weight: 400;
