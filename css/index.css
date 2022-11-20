@@ -459,6 +459,9 @@ figure {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   justify-content: center;
+  margin: auto;
+  padding-top: 17px;
+  padding-left: 32px;
 }
 
 .footer {
